@@ -11,8 +11,8 @@
         }
         section {
             display: inline-block;
-            width: 100%;
-            margin-left: calc ((100% - 100px) / 2);
+            width: 1000px;
+            margin-left: calc( (100% - 1000px) / 2 );
         }
         header {
             display: inline-block;
@@ -21,8 +21,9 @@
         }
            header > img {
                 display: inline-block;
+                float: left;
             }
-            nav {
+            header > nav {
                 display: inline-block;
                 float: right;
             }
@@ -31,7 +32,7 @@
                     color: black;
                     font-size: 20px;
                     text-decoration: none;
-                    margin-left: 20px;
+                    margin-left: 30px;
                 }
         main {
             display: inline-block;
@@ -54,6 +55,7 @@
                 }
                 div > img {
                     display: inline-block;
+                    float: left;
                 }
     </style>
 </head>
@@ -69,6 +71,7 @@
           <a href="#">Sign up</a>
       </nav>
   </header> 
+
   <main> 
      <div>
          <h1>404</h1>
